@@ -1,24 +1,43 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 
-const Login = () => {
+const Registration = () => {
   return (
     <div>
-         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+        <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+          <img
+            alt="Your Company"
+            
+            className="mx-auto h-10 w-auto"
+          />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-primary">
-            Login to your account
+            Sign Up
           </h2>
         </div>
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form
-            action="#"
-            method="POST"
-            className="space-y-6"
-          >
+          <form className="space-y-6">
             <div>
               <label
-                htmlFor="username"
+                htmlFor="email"
+                className="block text-lg font-semibold leading-6 text-primary"
+              >
+                Email address
+              </label>
+              <div className="mt-2">
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Enter Email address"
+                  required
+                  autoComplete="email"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6 px-2"
+                />
+              </div>
+            </div>
+            <div>
+              <label
+                htmlFor="email"
                 className="block text-lg font-semibold leading-6 text-primary"
               >
                 Username
@@ -29,13 +48,12 @@ const Login = () => {
                   name="username"
                   type="text"
                   required
-                  autoComplete="email"
+                  autoComplete="username"
                   placeholder="Enter Username"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6 px-2"
                 />
               </div>
             </div>
-
             <div>
               <div className="flex items-center justify-between">
                 <label
@@ -47,8 +65,8 @@ const Login = () => {
               </div>
               <div className="mt-2">
                 <input
-                  id="password"
-                  name="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
                   type="password"
                   required
                   autoComplete="current-password"
@@ -58,29 +76,21 @@ const Login = () => {
               </div>
             </div>
 
+         
+
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-gradient-to-br bg-secondary px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary"
+                className="flex w-full justify-center rounded-md bg-secondary px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary"
               >
-                Login
+                Sign Up
               </button>
             </div>
           </form>
-
-          <p className="mt-10 text-center text-sm text-gray-500">
-            New User?
-            <Link
-              to={`/registration`}
-              className="ml-2 font-semibold leading-6 text-primary hover:text-secondary"
-            >
-              Register here
-            </Link>
-          </p>
         </div>
       </div>
     </div>
   )
 }
 
-export default Login
+export default Registration
