@@ -11,7 +11,9 @@ export default {
         navbar : "#e0f2fe" , 
         textColor : "#0369a1" , 
         primary : "#075985" , 
-        secondary : "#0284c7"
+        secondary : "#0284c7" , 
+        tertiary : "#bae6fd" ,
+        gray : "#64748b" ,
       }
     },
   },

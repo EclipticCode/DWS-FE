@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div>
         <button className="border-2 text-primary border-primary rounded-md px-3 py-1 hover:bg-primary hover:text-white">
-          Login
+          <Link to={'/login'}>Login</Link>
         </button>
       </div>
     </div>
