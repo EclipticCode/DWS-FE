@@ -14,8 +14,7 @@ const Login = () => {
           <form
             action="#"
             method="POST"
-            className="space-y-6"
-          >
+            className="space-y-6">
             <div>
               <label
                 htmlFor="username"
@@ -35,7 +34,6 @@ const Login = () => {
                 />
               </div>
             </div>
-
             <div>
               <div className="flex items-center justify-between">
                 <label
@@ -67,7 +65,6 @@ const Login = () => {
               </button>
             </div>
           </form>
-
           <p className="mt-10 text-center text-sm text-gray-500">
             New User?
             <Link

@@ -9,11 +9,13 @@ import CopyRights from './Components/CopyRights'
 import Quote from './Components/Quote'
 import Login from './Components/Login'
 import Registration from './Components/Registration'
+import Available from './Components/Available'
 
 const App = () => {
   return (
     <div className='bg-background'>
       <Navbar/>
+      <Available/>
       <div>
          <Routes>
           <Route path='/' element={<Home/>}/>

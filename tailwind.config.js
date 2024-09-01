@@ -13,7 +13,7 @@ export default {
         primary : "#075985" , 
         secondary : "#0284c7" , 
         tertiary : "#bae6fd" ,
-        gray : "#64748b" ,
+        gray : "#1f2937" ,
       }
     },
   },

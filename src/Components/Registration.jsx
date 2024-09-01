@@ -75,9 +75,6 @@ const Registration = () => {
                 />
               </div>
             </div>
-
-         
-
             <div>
               <button
                 type="submit"
