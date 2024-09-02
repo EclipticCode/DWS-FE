@@ -1,36 +1,64 @@
 import React from "react";
-import lorry1 from '../assets/lorry-1.jpg'
-import lorry2 from '../assets/lorry-2.jpg'
-import lorry3 from '../assets/lorry-3.jpg'
-import lorry4 from '../assets/lorry-4.jpg'
-import lorry5 from '../assets/lorry-5.jpg'
-import lorry6 from '../assets/lorry-6.jpg'
-import lorry7 from '../assets/lorry-7.jpg'
-import lorry8 from '../assets/lorry-8.jpg'
-import lorry9 from '../assets/lorry-9.jpg'
+import lorry1 from "../assets/lorry-1.jpg";
+import lorry2 from "../assets/lorry-2.jpg";
+import lorry3 from "../assets/lorry-3.jpg";
+import lorry4 from "../assets/lorry-4.jpg";
+import lorry5 from "../assets/lorry-5.jpg";
+import lorry6 from "../assets/lorry-6.jpg";
 
 const Carousel = () => {
   return (
     <div>
-      <div id="default-carousel" className="relative w-full" data-carousel="slide">
+      <div
+        id="default-carousel"
+        className="relative w-full"
+        data-carousel="slide"
+      >
         <div className="relative h-56 overflow-hidden rounded-lg md:h-96 w-auto">
-          <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src={lorry1} className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"alt="lorry-image"/>
-          </div>
-             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={lorry6} className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md" alt="lorry-image"/>
-          </div>
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={lorry7} className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md" alt="lorry-image"/>
-          </div>
-         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={lorry8} className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md" alt="lorry-image" />
-          </div>
-               <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={lorry2} className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md" alt="lorry-image"/>
+          <div
+            className="hidden duration-700 ease-in-out"
+            data-carousel-item="active"
+          >
+            <img
+              src={lorry1}
+              className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
+              alt="lorry-image"
+            />
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={lorry9} className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md" alt="lorry-image"/>
+            <img
+              src={lorry3}
+              className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
+              alt="lorry-image"
+            />
+          </div>
+          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src={lorry4}
+              className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
+              alt="lorry-image"
+            />
+          </div>
+          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src={lorry5}
+              className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
+              alt="lorry-image"
+            />
+          </div>
+          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src={lorry2}
+              className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
+              alt="lorry-image"
+            />
+          </div>
+          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src={lorry6}
+              className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
+              alt="lorry-image"
+            />
           </div>
         </div>
 

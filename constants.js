@@ -21,6 +21,15 @@ export const servicesFirst = [
   },
 ];
 
+export const servicesSecond = [
+  { point: "Reliable water supply, delivered right to your construction site" },
+  { point: "Dedicated to supplying high-quality water for industrial purposes" },
+  { point: "Your trusted partner in bulk water delivery for events" },
+  { point: "Providing clean and fresh water for all kind of Residential purposes" },
+  { point: "Meeting emergency water supply demands with prompt service" },
+  { point: "Sustaining business with consistent and dependable water supply" },
+]
+
 export const whyChooseUs = [
   { point: "Reliable water delivery, every time." },
   { point: "Serving ECR and OMR for over 30 years." },

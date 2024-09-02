@@ -13,7 +13,7 @@ export default {
         textColor : "#0369a1" , 
         primary : "#075985" , 
         secondary : "#0284c7" , 
-        tertiary : "#bae6fd" ,
+        tertiary : "#bfdbfe" ,
         gray : "#1f2937" ,
       }
     },
