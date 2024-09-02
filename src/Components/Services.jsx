@@ -24,33 +24,33 @@ const Services = () => {
         <div className="my-8 mx-32" >
         <div className="flex justify-between">
           <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-            <span><i className="fa-solid fa-star text-yellow-400"></i></span> Reliable water supply, delivered right to your construction site
+            Reliable water supply, delivered right to your construction site
           </div>
         </div>
 
         <div className="flex justify-end">
           <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          <span><i className="fa-solid fa-star text-yellow-400"></i></span> Dedicated to supplying high-quality water for industrial purposes
+          Dedicated to supplying high-quality water for industrial purposes
           </div>
         </div>
         <div className="flex justify-start">
           <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          <span><i className="fa-solid fa-star text-yellow-400"></i></span> Your trusted partner in bulk water delivery for events 
+          Your trusted partner in bulk water delivery for events 
           </div>
         </div>
         <div className="flex justify-end">
           <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          <span><i className="fa-solid fa-star text-yellow-400"></i></span> Providing clean and fresh water for all kind of Residential purposes
+          Providing clean and fresh water for all kind of Residential purposes
           </div>
         </div>
         <div className="flex justify-start">
           <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          <span><i className="fa-solid fa-star text-yellow-400"></i></span> Meeting emergency water supply demands with prompt service
+          Meeting emergency water supply demands with prompt service
           </div>
         </div>
         <div className="flex justify-end pb-16">
           <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          <span><i className="fa-solid fa-star text-yellow-400"></i></span> Sustaining business with consistent and dependable water supply
+          Sustaining business with consistent and dependable water supply
           </div>
         </div>
         </div>
