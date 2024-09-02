@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../assets/Logo.png'
 
 const Navbar = () => {
   return (
     <div className="md:block lg:flex justify-between items-center px-4 py-2 bg-navbar drop-shadow-md">
-      <div>logo</div>
+      <div><img src={logo} alt="" className="h-14 w-14 rounded-full" /></div>
       <div className="flex justify-around space-x-24">
         <div className="font-semibold text-primary hover:text-secondary cursor-pointer">
           <Link to={"/"}>Home</Link>

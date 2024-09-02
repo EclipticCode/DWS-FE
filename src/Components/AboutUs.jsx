@@ -17,14 +17,14 @@ const AboutUs = () => {
         </div>
         <div className='max-w-xl pt-4'>
           <img className="rounded-md w-64 h-84 border-2 border-primary" src={CEO} alt="CEO-image" />
-          <p className='pt-2 text-xs font-semibold text-gray'>Bharathi Swaminathan</p>
+          <p className='pt-2 pl-16 text-xs font-semibold text-gray'>Bharathi Swaminathan</p>
         </div>
       </div>
       <div className='mt-16'>
         <h3 className='text-3xl font-bold text-primary underline underline-offset-8 pb-4'>Our Approach</h3>
         <div className='pt-4 font-semibold text-gray leading-loose'>At Dhanalakshmi Water Supplies, we believe in building lasting relationships with our clients, rooted in trust, reliability, and a shared commitment to excellence. As we continue to grow and serve the community, our mission remains clear: to be the go-to provider for all water supply needs, ensuring that every drop we deliver contributes to the success and well-being of those we serve.</div>
       </div>
-      <div className='flex justify-center mt-16'>
+      <div className='flex justify-center my-24'>
         <div><p className='text-2xl font-bold text-primary'>மழை நீரை சேமிப்பீர் <span><i className="fa-solid fa-hand-holding-droplet text-primary"></i></span> </p></div>
       </div>
     </div>

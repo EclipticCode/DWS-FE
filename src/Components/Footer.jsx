@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex justify-between p-8 bg-navbar'>
+    <div className='flex justify-between p-8 bg-tertiary'>
       <div className='max-w-xl'>
         <h3 className='font-bold text-primary'>Dhanalakshmi Water Supplies</h3>
         <p className='text-sm pt-2 leading-relaxed text-gray'>Providing reliable water supply services via tanker lorries to construction sites, hotels, residential areas, and more. Committed to quality and timely delivery, we source water from the best wells to meet your needs efficiently.</p>

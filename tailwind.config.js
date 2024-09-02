@@ -9,7 +9,7 @@ export default {
     extend: {
       colors : {
         background : "#f0f9ff" ,
-        navbar : "#e0f2fe" , 
+        navbar : "#B4DDDE" , 
         textColor : "#0369a1" , 
         primary : "#075985" , 
         secondary : "#0284c7" , 

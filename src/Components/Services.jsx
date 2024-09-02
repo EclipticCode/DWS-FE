@@ -11,7 +11,7 @@ const Services = () => {
           {servicesFirst.map((point, index) => (
             <div key={index} className="py-4">
               <h3 className="text-xl font-semibold text-primary pb-2"><span><i className="fa-solid fa-droplet text-primary"></i></span>  {point.heading}</h3>
-              <p className="">{point.description}</p>
+              <p className="leading-loose">{point.description}</p>
             </div>
           ))}
         </div>
@@ -23,34 +23,34 @@ const Services = () => {
         <h3 className="text-3xl font-bold text-primary underline underline-offset-8">We are best at</h3>
         <div className="my-8 mx-32" >
         <div className="flex justify-between">
-          <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-            Reliable water supply, delivered right to your construction site
+          <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md">
+          <span><i className="fa-solid fa-droplet text-secondary"></i></span> Reliable water supply, delivered right to your construction site
           </div>
         </div>
 
         <div className="flex justify-end">
-          <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          Dedicated to supplying high-quality water for industrial purposes
+          <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md">
+          <span><i className="fa-solid fa-droplet text-secondary"></i></span> Dedicated to supplying high-quality water for industrial purposes
           </div>
         </div>
         <div className="flex justify-start">
-          <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          Your trusted partner in bulk water delivery for events 
+          <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md">
+          <span><i className="fa-solid fa-droplet text-secondary"></i></span> Your trusted partner in bulk water delivery for events 
           </div>
         </div>
         <div className="flex justify-end">
-          <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          Providing clean and fresh water for all kind of Residential purposes
+          <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md">
+          <span><i className="fa-solid fa-droplet text-secondary"></i></span> Providing clean and fresh water for all kind of Residential purposes
           </div>
         </div>
         <div className="flex justify-start">
-          <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          Meeting emergency water supply demands with prompt service
+          <div className="max-w-xl self-start border-2 border-primary p-4 rounded-md">
+          <span><i className="fa-solid fa-droplet text-secondary"></i></span> Meeting emergency water supply demands with prompt service
           </div>
         </div>
         <div className="flex justify-end pb-16">
-          <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md  font-semibold text-primary">
-          Sustaining business with consistent and dependable water supply
+          <div className="max-w-xl self-end border-2 border-primary p-4 rounded-md">
+          <span><i className="fa-solid fa-droplet text-secondary"></i></span> Sustaining business with consistent and dependable water supply
           </div>
         </div>
         </div>
