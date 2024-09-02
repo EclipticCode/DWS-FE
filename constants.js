@@ -20,3 +20,16 @@ export const servicesFirst = [
       "From small businesses to large corporations, we serve a wide range of commercial establishments with our dependable water delivery services.",
   },
 ];
+
+export const whyChooseUs = [
+  { point: "Reliable water delivery, every time." },
+  { point: "Serving ECR and OMR for over 30 years." },
+  { point: "Prompt service, tailored to your needs." },
+  { point: "Expert team, ensuring quality and safety." },
+  { point: "Comprehensive solutions for all sectors." },
+  { point: "24/7 availability, because we care." },
+  { point: "Efficient logistics for timely deliveries." },
+  { point: "Trusted by businesses and residents alike." },
+  { point: "Competitive pricing with no compromise on quality." },
+  { point: "Committed to excellence, driven by customer satisfaction." }
+];
