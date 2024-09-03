@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to={"/aboutUs"}>About us</Link>
         </div>
       </div>
-      <div className="px-8">
+      <div className="px-8 sm:mt-4 lg:mt-0">
        {username ?  <button className="border-2 text-primary border-primary rounded-md px-3 py-1 hover:bg-primary hover:text-white" onClick={() => handleLogout()}>
          Logout
         </button> :  <button className="border-2 text-primary border-primary rounded-md px-3 py-1 hover:bg-primary hover:text-white">

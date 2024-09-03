@@ -20,8 +20,8 @@ const Home = () => {
           ))}
         </ul>
         </div>
-        <div className='w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 mt-20'>
-        <img className="text-gray opacity-25 sixe-full md:size-auto mx-auto" src={questionMark} alt="question-mark" />
+        <div className='w-48 h-48 xs:hidden sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 mt-20'>
+        <img className="text-gray opacity-25 size-full md:size-auto mx-auto" src={questionMark} alt="question-mark" />
         </div>
       </div>
     </div>
