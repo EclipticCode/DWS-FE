@@ -5,7 +5,7 @@ Welcome to the official website repository of **Dhanalakshmi Water Supplies**! T
 
 ## Folder Structure
 
-TECHTIMES-FE/   
+DWS-FE/   
 ├── public/   
 ├── src/   
 │ ├── assets/   
