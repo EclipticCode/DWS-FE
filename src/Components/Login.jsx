@@ -1,9 +1,38 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React, { useState } from 'react'
+import { Link, useNavigate } from "react-router-dom";
 import Logo from '../assets/Logo.png'
+import axios from 'axios';
+import { apiUrl } from '../../constants';
 
 
 const Login = () => {
+
+  const [username , setUsername] = useState("")
+  const [password , setPassword] = useState("")
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    const apiResponse = await axios.get(`${apiUrl}/login/${username}/${password}`);
+    try {
+     if(apiResponse.data != "Login Failed"){
+      const { username , token } = apiResponse.data;
+      localStorage.setItem("login" , username);
+      localStorage.setItem("token" , token)
+      alert("Login Successful")
+      navigate('/')
+      setUsername("")
+      setPassword("")
+      window.location.reload()
+      return;
+     }
+    alert("Invalid Username or Password")
+    } catch(error){
+      console.error("Error during login:" , error);
+      alert("An error occured . Please try again.")
+    }
+  }
+
   return (
     <div>
          <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -21,7 +50,8 @@ const Login = () => {
           <form
             action="#"
             method="POST"
-            className="space-y-6">
+            className="space-y-6"
+            onSubmit={handleSubmit}>
             <div>
               <label
                 htmlFor="username"
@@ -37,6 +67,8 @@ const Login = () => {
                   required
                   autoComplete="email"
                   placeholder="Enter Username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6 px-2"
                 />
               </div>
@@ -58,6 +90,8 @@ const Login = () => {
                   required
                   autoComplete="current-password"
                   placeholder="Enter Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6 px-2"
                 />
               </div>

@@ -1,3 +1,5 @@
+export const apiUrl = 'https://dws-be-1.onrender.com'
+
 export const servicesFirst = [
   {
     heading: "Construction Sites",

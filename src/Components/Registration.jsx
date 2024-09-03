@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../assets/Logo.png'
 import axios from 'axios'
+import { apiUrl } from '../../constants'
 
 
 const Registration = () => {
@@ -11,7 +12,7 @@ const Registration = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const apiResponse = await axios.post('http://localhost:4000/registration' , {
+    const apiResponse = await axios.post(`${apiUrl}/registration` , {
       username : username , 
       password : password
     })

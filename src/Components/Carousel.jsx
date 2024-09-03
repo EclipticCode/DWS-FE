@@ -48,13 +48,6 @@ const Carousel = () => {
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src={lorry2}
-              className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
-              alt="lorry-image"
-            />
-          </div>
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
               src={lorry6}
               className="absolute block md:w-6/12 md:h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-md"
               alt="lorry-image"
@@ -97,13 +90,6 @@ const Carousel = () => {
             aria-current="false"
             aria-label="Slide 5"
             data-carousel-slide-to="4"
-          ></button>
-          <button
-            type="button"
-            className="w-3 h-3 rounded-full"
-            aria-current="false"
-            aria-label="Slide 6"
-            data-carousel-slide-to="5"
           ></button>
         </div>
 
