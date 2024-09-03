@@ -1,8 +1,33 @@
-# React + Vite
+# Dhanalakshmi Water Supplies Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official website repository of **Dhanalakshmi Water Supplies**! This website was developed to enhance our online presence and provide easy access to information about our services, company history, contact details and why we are the trusted choice for water supply solutions . This repository contains the front end code of the application.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Folder Structure
+
+TECHTIMES-FE/   
+├── public/   
+├── src/   
+│ ├── assets/   
+│ ├── Components/   
+│ ├── App.jsx   
+│ ├── main.jsx   
+│
+├── .gitignore   
+├── index.html   
+├── package.json   
+├── README.md   
+
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Javascript
+- ReactJS
+- TailwindCSS
+
+
+## Website Link
+
+View the Live Application - [https://dlws.netlify.app/](https://dlws.netlify.app/)
